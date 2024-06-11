@@ -1,0 +1,13 @@
+{
+  "name": "homebridge-glitch",
+  "version": "1.0.0",
+  "description": "Homebridge server running on Glitch",
+  "main": "index.js",
+  "scripts": {
+    "start": "homebridge -U /app"
+  },
+  "dependencies": {
+    "homebridge": "^1.3.4",
+    "homebridge-hue": "^0.12.19"
+  }
+}
